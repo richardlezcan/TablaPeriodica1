@@ -1,0 +1,105 @@
+table{ width: 100%;
+    border: 5px solid  ;
+    /*border-collapse: collapse;*/
+    border-collapse:separate;
+}
+
+thead{
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+tbody{color:white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#filas{
+    color: black;
+    
+}
+
+.periodos{
+    color:black;
+    
+}
+
+.no_metales{
+    background-color: orangered;
+    color: black;
+    
+}
+
+.metales_alcalinos{
+    background-color:midnightblue
+}
+
+.Alcalinotérreos{
+    background-color: yellow;
+    color: black;
+}
+
+.metales_de_transicion{
+    background-color:cornflowerblue;
+}
+
+.gases_nobles{
+    background-color: green;
+}
+
+.Metaloides{
+    background-color: rgb(240, 75, 108);
+}
+
+.Halógenos{
+    background-color: greenyellow;
+    color:black
+}
+
+.Otros_metales{
+    background-color: blueviolet;
+}
+
+.Lantánidos{
+    background-color:lightgreen;
+    color:black;
+}
+
+.Actínidos{
+    background-color: teal;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+.numero-atomico {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-size: 0.8em;
+}
+.masa-atomica {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 0.8em;
+}
+h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.nombre-elemento {
+    font-size: 0.7em;
+}
+.configuracion-electronica {
+    font-size: 0.6em;
+}
